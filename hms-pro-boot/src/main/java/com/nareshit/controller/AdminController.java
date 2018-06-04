@@ -31,6 +31,7 @@ public class AdminController {
 	{
 		List<AdminBean> admins=adminService.getAllAdmmins();
 		m.addAttribute("admins", admins);
+System.out.println(admins);
 		return "adminDataBoard";	
 	}
 	//get Admins by pagination

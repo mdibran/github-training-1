@@ -42,6 +42,8 @@ public class AdminController {
 		
 		return "adminDataBoard";
 	}*/
+
+System.out.println("in admin controller");
 	//show add admin form
 	@RequestMapping("/adminAddForm")
 	public String showAddAdminForm(Model m)

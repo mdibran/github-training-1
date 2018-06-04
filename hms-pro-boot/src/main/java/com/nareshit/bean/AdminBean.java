@@ -1,7 +1,7 @@
 package com.nareshit.bean;
 
 public class AdminBean {
-
+	//admin id
 	private Integer adminid;
 	private String fname;
 	private String lname;

@@ -49,7 +49,8 @@ public class HomeController {
 		
 		
 		//User user = (User)authManager.getPrincipal();
-		
+	//User user = (User)authManager.getPrincipal();	
+
 		String dashBoardPage = "dashBoard";
 		
 		String role = null;

@@ -17,7 +17,7 @@ import com.zaxxer.hikari.HikariDataSource;
 public class HmsProBootApplication implements CommandLineRunner{
 	
 	@Autowired
-	private DataSource ds;
+	private DataSource ds;//datasource creation
 	
 	@Autowired
 	private HikariDataSource hds;

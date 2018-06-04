@@ -1,0 +1,7 @@
+Git==>
+
+pull- check out==>command====>   git.exe pull --progress -v --no-rebase "origin" master
+==origin-alias name of remote  ==>master
+
+dotridge.java@gmail.com
+Dotridge@123

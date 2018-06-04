@@ -34,6 +34,8 @@ public class HospitalController {
 		double d=(count / (recordperpage+0.0));
 		int pages=(int) Math.ceil(d);
 		
+System.out.println(" HospitalController {");
+
 		//send  data to ui
 		m.put("pages", pages);
 		m.put("hospitals", hosplist);

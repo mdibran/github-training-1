@@ -11,7 +11,7 @@ import org.springframework.web.servlet.view.tiles3.TilesView;
 import org.springframework.web.servlet.view.tiles3.TilesViewResolver;
 
 @Configuration
-//@EnableWebMvc
+@EnableWebMvc
 public class WebMvcConfigurer extends WebMvcConfigurerAdapter {
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {

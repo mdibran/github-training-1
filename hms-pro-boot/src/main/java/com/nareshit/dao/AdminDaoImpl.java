@@ -23,6 +23,7 @@ public class AdminDaoImpl implements AdminDao {
 		factory = HibernateUtility.getInstance();
 	}*/
 
+
 	public Admin addAdmin(Admin a) {
 		Session s = factory.openSession();
 		Transaction tx = s.beginTransaction();
